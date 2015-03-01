@@ -1,0 +1,65 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:text="Q\nU\nI\nZ\nZ\nE\nS"
+        android:id="@+id/button_quizzes"
+        android:background="@drawable/custom_category"
+        android:textSize="60dp"
+        android:onClick="onCategoryClick" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:text="Q\nU\nI\nZ\nZ\nE\nS"
+        android:id="@+id/button_managerial"
+        android:background="@drawable/custom_category"
+        android:textSize="60dp"
+        android:layout_gravity="center_vertical"
+        android:onClick="onCategoryClick"/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="564dp"
+        android:text="Q\nU\nI\nZ\nZ\nE\nS"
+        android:id="@+id/button_technopolis"
+        android:background="@drawable/custom_category"
+        android:textSize="60dp"
+        android:layout_gravity="bottom"
+        android:onClick="onCategoryClick"/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:text="Q\nU\nI\nZ\nZ\nE\nS"
+        android:id="@+id/button_design"
+        android:background="@drawable/custom_category"
+        android:textSize="60dp"
+        android:onClick="onCategoryClick"/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:text="Q\nU\nI\nZ\nZ\nE\nS"
+        android:id="@+id/button_papers"
+        android:background="@drawable/custom_category"
+        android:textSize="60dp"
+        android:onClick="onCategoryClick"/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="564dp"
+        android:text="Q\nU\nI\nZ\nZ\nE\nS"
+        android:id="@+id/button_fun"
+        android:background="@drawable/custom_category"
+        android:textSize="60dp"
+        android:layout_weight="0.11"
+        android:onClick="onCategoryClick"/>
+
+</LinearLayout>
